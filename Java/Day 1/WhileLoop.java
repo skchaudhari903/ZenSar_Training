@@ -5,7 +5,6 @@ public class WhileLoop{
 		while (index <=10){
 				System.out.println(index);
 				index++;
-		}
-		
+		}	
 	}
 }
