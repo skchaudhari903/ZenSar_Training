@@ -26,7 +26,5 @@ class Circle{
 	
 	public int getRadius(){
 		return radius;
-	}
-		
+	}		
 }
-
