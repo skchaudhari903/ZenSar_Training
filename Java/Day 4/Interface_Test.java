@@ -52,6 +52,5 @@ public class Interface_Test{
 		//advcalc.sub(10,2);
 		advcalc.mul(10,2);
 		advcalc.div(10,2);
-
 	}
 }
