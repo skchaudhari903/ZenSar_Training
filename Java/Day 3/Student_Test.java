@@ -118,6 +118,5 @@ class Student_Test{
 		else{
 			System.out.println("s1 is NOT equal to s2");
 		}
-		
 	}
 }
