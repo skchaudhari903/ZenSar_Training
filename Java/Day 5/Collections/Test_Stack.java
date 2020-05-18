@@ -1,39 +1,31 @@
-package com.collection;
-import java.util.Arrays;
-import java.util.Stack;
-
+import java.util.*;
 public class Test_Stack {
-	
 	public static void main(String[] args) {
-		
-		//for integer
-		Stack<Integer> intr = new Stack<Integer>();
-		Student[] students ={new Student(101,"Amar"),new Student(102,"Akbarr"),new Student(103,"Anthony")};
-		
-		System.out.println(intr.size()+"\t"+intr);
-		intr.push(2);   
-		intr.push(3); 
-		intr.push(9); 
-		intr.push(22); 
-		intr.push(4); 
-		System.out.println(intr.size()+"\t"+intr);
-		System.out.println(intr.peek());
-		intr.pop();
-		System.out.println(intr.size()+"\t"+intr);
-		System.out.println(intr.empty());
-		System.out.println(intr.search(22));
-		
-		//for string
-		Stack<String> str = new Stack<String>();
-		System.out.println(str.size()+"\t"+str);
-		str.push("shreya");   
-		str.push("joshi"); 
-		str.push("be"); 
-		str.push("computer"); 
-		str.push("sitrc");
-		System.out.println(str.size()+"\t"+str);
-		
-		
+		// TODO Auto-generated method stub
+		//int[] data = new int[10];
+		/*
+		Stack <Integer> stack = new Stack <Integer>();
+		stack.push(4);
+		stack.push(8);
+		stack.push(2);
+		stack.push(3);
+		System.out.println("Elements in Stack :"+stack);
+		System.out.println("Element Popped :"+stack.pop());
+		System.out.println("Elements in Stack :"+stack);
+		System.out.println("Top Element of Stack :"+stack.peek());
+		System.out.println("Position :"+stack.search(2));
+		System.out.println("Stack is Empty :"+stack.empty());
+		*/
+		Stack <String> stack = new Stack <String>();
+		stack.push("Amar");
+		stack.push("Jai");
+		stack.push("Shree");
+		stack.push("Tejas");
+		System.out.println("Elements in Stack :"+stack);
+		System.out.println("Element Popped :"+stack.pop());
+		System.out.println("Elements in Stack :"+stack);
+		System.out.println("Top Element of Stack :"+stack.peek());
+		System.out.println("Position :"+stack.search("Shree"));
+		System.out.println("Stack is Empty :"+stack.empty());
 	}
-
 }

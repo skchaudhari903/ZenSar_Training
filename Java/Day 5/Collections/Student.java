@@ -1,5 +1,3 @@
-package com.collection;
-
 import java.io.Serializable;
 
 public class Student implements Comparable<Student>,Serializable{

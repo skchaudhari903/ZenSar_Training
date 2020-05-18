@@ -1,32 +1,28 @@
-package com.collection;
-
 import java.util.HashSet;
 import java.util.Iterator;
-//tree set pending
+import java.util.TreeSet;
+
 public class Test_Set {
 
 	public static void main(String[] args) {
-		HashSet<String> set = new HashSet<String> ();
+		// TODO Auto-generated method stub
+		//HashSet <String> set = new HashSet<String>();
+		TreeSet <String> set = new TreeSet<String>();
+		System.out.println(set.size()+"\t"+set);
+		//set.add("null");			//if added(null) in Treeset, will not be sorted directly appended at last for display
+		set.add("Sun");
+		set.add("Mon");
+		set.add("Wed");
+		System.out.println(set.size()+"\t"+set);
+		
+		set.remove("Wed");
 		System.out.println(set.size()+"\t"+set);
 
-		set.add("sun");
-		set.add("Mon");
-		set.add("Tue");
 		set.add("Wed");
-		set.add("Thur");
-		set.add("free");
-		System.out.println(set.size()+"\t"+set); //natural order o/p i.e unsynchronized
-		
-		set.remove("free");
-		System.out.println(set.size()+"\t"+set);
-		
-		set.add("sat");
-		System.out.println(set.size()+"\t"+set);
 		
 		//traversing
-		Iterator<String> itr =set.iterator();
-		while(itr.hasNext())
-		{
+		Iterator <String> itr = set.iterator();
+		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
 		
