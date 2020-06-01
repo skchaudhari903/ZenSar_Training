@@ -31,7 +31,6 @@ public class Test_List_Comparator_Lambda {
 		
 		//Collections.sort(, c);
 		
-
 	}
 
 }
