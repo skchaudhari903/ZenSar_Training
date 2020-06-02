@@ -84,7 +84,7 @@ public class StudentDAO {
 			
 		}
 		
-public void delete(int rollNo) {
+		public void delete(int rollNo) {
 			
 			String SQL = "delete from Student where rollno=?";
 			PreparedStatement pstat = null;
